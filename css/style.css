@@ -7,12 +7,12 @@
 
 .container {
 	width: 600px;
-	height: 350px;
+	height: auto;
 	margin: 10% auto;
 	border: 1px solid #ccc;
 }
 
-.content {
+.task1, .task2 {
 	margin: 10px auto;
 	width: 580px;
 	height: 270px;
@@ -80,3 +80,41 @@
 	display: block;
 }
 
+
+/* ------ TASK2-------- */
+
+.task2 {
+	margin-top: 100px;
+	margin-bottom: 0;
+	height: 160px;
+}
+
+label {
+	width: 75px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.tooltips {
+	display: none;
+	float: right;
+	width: 220px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	box-sizing: border-box;
+	vertical-align: top;
+	margin-top: 2px;
+	margin-right: 90px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 7px -2px;
+}
+
+.helpbutton {
+	width: 100px;
+	height: 30px;
+	margin-left: 10px;
+	border-radius: 5px;
+	font-size: 18px;
+}
