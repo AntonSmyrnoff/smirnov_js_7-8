@@ -72,12 +72,9 @@
 }
 
 .tab-text {
-	display: block;
-}
-
-.tab2-text, .tab3-text {
 	display: none;
 }
+
 
 .tab-text--active {
 	display: block;
